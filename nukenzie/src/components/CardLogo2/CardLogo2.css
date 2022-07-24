@@ -1,0 +1,78 @@
+.logoCards2 {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 49px;
+    box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    animation-name: slide-start2;
+    animation-duration: 1.2s;
+    margin: 150px 0px 0px 60px;
+
+}
+
+.logoCards_img2 {
+    width: 50px;
+    height: 50px;
+    background-color: #66C085;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fade;
+    animation-duration: 1.8s;
+}
+
+.logoCards2 div img {
+    width: 60%;
+}
+
+.firstBox2, .secondBox2 {
+    width: 106px;
+    height: 16px;
+    background-color: #66c08522;
+
+}
+
+.logoCards_text2 {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    animation-name: fade;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+}
+
+.secondBox2 {
+    width: 56px;
+}
+
+.logoCards2:hover {
+    animation-name: slide2;
+    animation-duration: 1.7s;
+}
+
+@keyframes slide2 {
+
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-70px);
+    }
+}
+
+@keyframes slide-start2 {
+
+    from {
+        transform: translateX(-70px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

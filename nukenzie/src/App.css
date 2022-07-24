@@ -1,0 +1,61 @@
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap:45px;
+    flex-wrap: wrap;
+    padding: 50px 25px;
+}
+header{
+    margin-bottom: 39px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+header div{
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+header img{
+    height: 60%;
+}
+
+.containerFormValor{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.PageIndex{
+ background-color: #212529;
+ display: flex;
+ align-items: center;
+ min-height: 100vh;
+}
+button{
+    box-sizing: border-box;
+    height: 48px;
+    cursor: pointer;
+    background-color: #343A40;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+
+button:active{
+    background-color:  #8207d5; 
+}
+
+.btn_sair{
+    width: 64px;
+    height: 30px;
+    color:#343A40;
+    font-weight: 600;
+    background-color:#E9ECEF;
+    margin: 0;
+}

@@ -1,0 +1,32 @@
+.containerValor{
+    box-sizing: border-box;
+    width: 363px;
+    height: 96px;
+    border: 1px solid #E9ECEF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerValor p{
+   font-size: 16px;
+   font-weight: 700;
+}
+
+.containerValor span{
+    margin: 0;
+    color: var(--color-main);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.containerValor::after{
+    margin-top: 10px;
+    content: "O valor se refere ao saldo";
+    font-size: 12px;
+}
+
+.containerValor div{
+    display: flex;
+    justify-content: space-between;
+}

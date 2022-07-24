@@ -1,0 +1,44 @@
+.containerFinanceiro {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.containerFinanceiro h5 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0px 60px 10px 0px ;
+}
+
+.Btn_filtros {
+    display: flex;
+    gap: 15px
+}
+
+.Btn_filtros button {
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.containerfiltros {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.containerOperacoes{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.btn:active{
+    background-color: rgb(212, 0, 255);
+   
+}

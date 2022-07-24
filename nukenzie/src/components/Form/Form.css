@@ -1,0 +1,48 @@
+:root{
+        --main-color: #E9ECEF;
+}
+
+form{
+    box-sizing: border-box;
+    width: 363px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    padding: 38px 24px 38px 24px;
+    border: 1px solid #E9ECEF;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap:10px
+}
+
+.containerInterno{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form label {
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+form p {
+    color: #868E96;
+    font-size: 12px;
+    margin: 5px 0px 18px 0px;
+}
+
+button{
+    margin-top: 19px;
+    background:#820ad1;
+}
+
+input, select{
+    box-sizing: border-box;
+    height:50px;
+    border: none;
+    background-color: #F8F9FA;
+    padding: 10px;
+}

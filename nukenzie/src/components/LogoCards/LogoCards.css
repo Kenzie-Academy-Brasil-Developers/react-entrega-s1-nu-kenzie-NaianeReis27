@@ -1,0 +1,99 @@
+.logoCards {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    box-shadow: 0px 3.62137px 36.2137px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    animation-name: slide-start;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.logoCards_img {
+    width: 60px;
+    height: 60px;
+    background-color: #820ad1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fade;
+    animation-duration: 1.8s;
+    
+}
+
+.logoCards div img {
+    width: 60%;
+}
+
+.firstBox, .secondBox {
+    width: 206px;
+    height: 16px;
+    background-color: rgba(124, 14, 141, 0.155);
+    animation-name: fade;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+
+}
+
+.logoCards_text {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.secondBox {
+    width: 106px;
+}
+
+.logoCards:hover {
+    animation-name: slide;
+    animation-duration: 1.2s;
+}
+
+@keyframes slide {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(110px);
+    }
+}
+@keyframes slide-rigth {
+
+    from {
+        transform: translateX(-210px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes slide-start {
+
+    from {
+        transform: translateX(110px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

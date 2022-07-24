@@ -1,0 +1,54 @@
+:root{
+    --animation-gray: #FFFFFF;
+}
+
+.containerLogo{
+    position: absolute;
+    padding: 9px;
+    width: 250px;
+    height: 350px;
+    border-radius: 3px;
+    background-color: var(--animation-gray) ;
+}
+.circles{
+    display: flex;
+    justify-content: flex-end;
+    gap:9px;
+    animation-name: fade;
+    animation-duration: 1.0s;
+    animation-fill-mode: forwards;
+}
+
+.vermelho, .verde, .preto{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.vermelho{
+    background-color: #FD377E;
+}
+
+.verde{
+    background-color: #66C085;
+}
+.preto{
+    background-color:#000000;
+}
+.blocos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    animation-name: fade;
+    animation-duration: 1.0s;
+    animation-fill-mode: forwards;
+}
+.blocos div{
+    width: 206px;
+    height: 36px;
+    background-color: #F3F3F3;
+    border-radius: 1px;
+}

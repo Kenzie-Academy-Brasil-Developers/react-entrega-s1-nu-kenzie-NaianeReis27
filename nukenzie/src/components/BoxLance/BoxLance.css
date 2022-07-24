@@ -1,0 +1,35 @@
+.box{
+    height: 80px;
+    background-color: #F8F9FA;
+    display: flex;
+    animation-name: slide-rigth;
+    animation-duration: .4s;
+    animation-fill-mode: forwards; 
+}
+.box::before{
+    content: "i";
+    width: 5px;
+    height: 100%;
+    background-color:#E9ECEF;
+    margin-right: 8px;
+    color: #E9ECEF;
+    
+}
+.box div{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box_lancamentos_1, .box_lancamentos_2{
+ width: 290px;
+ display: flex;
+ height: 13px;
+ background-color: #E9ECEF;
+}
+
+.box_lancamentos_2{
+    width: 90px;
+    display: flex;
+}
